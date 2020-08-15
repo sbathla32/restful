@@ -4,6 +4,13 @@ public class Employee {
 	private String name;
 	private Integer id;
 	private String team;
+
+	public Employee(Integer id, String name,  String team) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.team = team;
+	}
 	public String getName() {
 		return name;
 	}

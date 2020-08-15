@@ -16,15 +16,9 @@ public class EmployeeUtil {
 	
 	@PostConstruct
 	public void init() {
-		Employee employee = new Employee();
-		employee.setId(1);
-		employee.setName("Sahil");
-		employee.setTeam("DI");
+		Employee employee = new Employee(1, "Sahil","DI");
 		employees.add(employee);
-		Employee employee2 = new Employee();
-		employee2.setId(2);
-		employee2.setName("Supreet");
-		employee2.setTeam("DI");
+		Employee employee2 = new Employee(1, "Supreet","DI");
 		employees.add(employee2);
 	}
 
